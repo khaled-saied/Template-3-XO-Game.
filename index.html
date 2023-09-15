@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="Css/all.min.css">
+    <link rel="stylesheet" href="Css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+
+    <section class="container mx-12 ">
+        <div class="spin">
+            <div class="spinner-border text-muted my-4  mx-1 text btn btn-outline-muted" >x</div>
+            <div class="spinner-border text-primary my-4  mx-1 text btn btn-outline-primary" >x</div>
+            <div class="spinner-border text-success my-4  mx-1 text btn btn-outline-success" >x</div>
+            <div class="spinner-border text-info my-4  mx-1 text btn btn-outline-info" >x</div>
+            <div class="spinner-border text-warning my-4  mx-1 text btn btn-outline-warning" >x</div>
+            <div class="spinner-border text-danger my-4  mx-1 text btn btn-outline-danger" >x</div>
+            <div class="spinner-border text-secondary my-4  mx-1 text btn btn-outline-secondary" >x</div>
+            <div class="spinner-border text-dark my-4  mx-1 text btn btn-outline-dark" >x</div>
+            <div class="spinner-border text-warning my-4  mx-1 text btn btn-outline-warning" >o</div>
+            <div class="spinner-border text-danger my-4  mx-1 text btn btn-outline-danger" >o</div>
+            <div class="spinner-border text-secondary my-4  mx-1 text btn btn-outline-secondary" >o</div>
+            <div class="spinner-border text-dark my-4  mx-1 text btn btn-outline-dark" >o</div>
+            <div class="spinner-border text-warning my-4  mx-1 text btn btn-outline-warning" >o</div>
+            <div class="spinner-border text-danger my-4  mx-1 text btn btn-outline-danger" >o</div>
+            <div class="spinner-border text-secondary my-4  mx-1 text btn btn-outline-secondary" >o</div>
+            <div class="spinner-border text-dark my-4  mx-1 text btn btn-outline-dark" >o</div>
+        </div>
+
+        <header class="title"><span>X & O Game</span></header>
+        <div class="parent border border-dark ">
+            <div class="row">
+                <div class="clo-md-4 col-3 bg-dark text-warning font-weight-bold border border-secondary rounded-circle item" id="item1" onclick="game(this.id)"></div>
+                <div class="clo-md-4 col-3 bg-dark text-warning font-weight-bold border border-secondary rounded-circle item" id="item2" onclick="game(this.id)"></div>
+                <div class="clo-md-4 col-3 bg-dark text-warning font-weight-bold border border-secondary rounded-circle item" id="item3" onclick="game(this.id)"></div>
+            </div>
+    
+            <div class="row">
+                <div class="clo-md-4 col-3 bg-dark text-warning font-weight-bold border border-secondary rounded-circle item" id="item4" onclick="game(this.id)"></div>
+                <div class="clo-md-4 col-3 bg-dark text-warning font-weight-bold border border-secondary rounded-circle item" id="item5" onclick="game(this.id)"></div>
+                <div class="clo-md-4 col-3 bg-dark text-warning font-weight-bold border border-secondary rounded-circle item" id="item6" onclick="game(this.id)"></div>
+            </div>
+    
+            <div class="row">
+                <div class="clo-md-4 col-3 bg-dark text-warning font-weight-bold border border-secondary rounded-circle item" id="item7" onclick="game(this.id)"></div>
+                <div class="clo-md-4 col-3 bg-dark text-warning font-weight-bold border border-secondary rounded-circle item" id="item8" onclick="game(this.id)"></div>
+                <div class="clo-md-4 col-3 bg-dark text-warning font-weight-bold border border-secondary rounded-circle item" id="item9" onclick="game(this.id)"></div>
+            </div>
+        </div>
+
+    </section>
+
+    <script src="https://unpkg.com/@popperjs/core@2/dist/umd/popper.js"></script>
+    <script src="https://unpkg.com/@popperjs/core@2"></script>
+    <script src="Js/jquery-3.7.0.min.js"></script>
+    <script src="Js/bootstrap.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
